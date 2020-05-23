@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM openjdk:15-jdk
 
 # This Dockerfile adds a non-root user with sudo access. Use the "remoteUser"
 # property in devcontainer.json to use it. On Linux, the container user's GID/UIDs
